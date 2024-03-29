@@ -1,0 +1,5 @@
+{
+  "description": "Runs script on target node to detect xz vulnerability (CVE-2024-3094)",
+  "support_noop": false,
+  "parameters": {}
+}
