@@ -1,10 +1,10 @@
 {
-  "name": "nmburgan-xzscanner",
+  "name": "puppetlabs-xzscanner",
   "version": "0.1.0",
-  "author": "nmburgan",
-  "summary": "",
+  "author": "puppetlabs",
+  "summary": "A quick orchestrated check for compromised xz in your infra",
   "license": "Apache-2.0",
-  "source": "",
+  "source": "https://github.com/puppetlabs/xzscanner",
   "dependencies": [
 
   ],
