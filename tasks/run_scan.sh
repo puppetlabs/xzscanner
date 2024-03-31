@@ -2,5 +2,6 @@
 
 set -e
 
-echo "Command: ${PE__installdir}/xzscanner/files/detect.sh"
+declare PT__installdir
+echo "Command: ${PT__installdir}/xzscanner/files/detect.sh"
 ${PT__installdir}/xzscanner/files/detect.sh 2>&1
