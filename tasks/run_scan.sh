@@ -2,5 +2,5 @@
 
 set -e
 
-echo "Command: ${PE__installdir}/xzscanner/files/detech.sh"
-${PT__installdir}/xzscanner/files/detech.sh 2>&1
+echo "Command: ${PE__installdir}/xzscanner/files/detect.sh"
+${PT__installdir}/xzscanner/files/detect.sh 2>&1
