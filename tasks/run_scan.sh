@@ -3,5 +3,7 @@
 set -e
 
 declare PT__installdir
-echo "Command: ${PT__installdir}/xzscanner/files/detect.sh"
-${PT__installdir}/xzscanner/files/detect.sh 2>&1
+source "$PT__installdir/bash_task_helper/files/task_helper.sh"
+
+result=$(${PT__installdir}/xzscanner/files/detect.sh 2>&1)
+task-output-json "vulnerable?" $result
