@@ -2,7 +2,8 @@
   "description": "Runs script on target node to detect xz vulnerability (CVE-2024-3094)",
   "supports_noop": false,
   "files": [
-    "xzscanner/files/detect.sh"
+    "xzscanner/files/detect.sh",
+    "bash_task_helper/files/task_helper.sh"
   ],
   "parameters": {}
 }
